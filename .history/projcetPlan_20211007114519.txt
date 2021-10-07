@@ -1,0 +1,3 @@
+step1: install all dependency 
+step2: clean create react app unnessecery  filse
+step3: create folder structure

@@ -1,0 +1,30 @@
+
+                --------------------------------------
+                day 01 todo paln
+                ----------------------------------
+step 01
+        A: install all dependency 
+        B: clean create react app unnessecery  filse
+        C: create folder structure
+        D: successful yarn/npm start
+
+step 02
+        A: Header        
+
+
+
+
+error css
+
+@font-face {
+  font-family: "font-awesome";
+  src: url("../fonts/font-awesome/fonts/fontawesome-webfont.ttf");
+  src: url("../fonts/font-awesome/fonts/fontawesome-webfont.eot"),
+    /* IE9 Compat Modes */
+      url("../fonts/font-awesome/fonts/fontawesome-webfont.woff2")
+      format("woff2"),
+    /* Super Modern Browsers */
+      url("../fonts/font-awesome/fonts/fontawesome-webfont.woff") format("woff"),
+    /* Pretty Modern Browsers */
+      url("../fonts/font-awesome/fonts/fontawesome-webfont.svg") format("svg"); /* Legacy iOS */
+}

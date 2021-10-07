@@ -1,0 +1,12 @@
+
+                --------------------------------------
+                day 01 todo paln
+                ----------------------------------
+step 01
+        A: install all dependency 
+        B: clean create react app unnessecery  filse
+        C: create folder structure
+        D: successful yarn/npm start
+
+step 02
+        A: Header        

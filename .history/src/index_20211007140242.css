@@ -1,0 +1,16 @@
+/*=========================
+	All css imported
+==========================*/
+
+@import url("./assets/css/style.css");
+@import url("./assets/css/responsive.css");
+/* @import url("./assets/vendor/Camera-master/css/camera.css"); */
+@import url("./assets/vendor/bootstrap/css/bootstrap.min.css");
+@import url("./assets/vendor/menu/dist/css/slimmenu.css");
+@import url("./assets/vendor/owl-carousel/owl.carousel");
+@import url("./assets/vendor/owl-carousel/owl.theme.css");
+@import url("./assets/vendor/WOW-master/css/libs/animate.css");
+@import url("./assets/vendor/fancybox/dist/jquery.fancybox.css");
+@import url("./assets/fonts/icon/font/flaticon.css");
+@import url("./assets//vendor/language-switcher/polyglot-language-switcher.css");
+@import url("./assets//vendor/sanzzy-map/dist/snazzy-info-window.css");
