@@ -1,0 +1,13 @@
+Probelm:>=>
+jquery <script> file gulo kothai link/import korte hobe?
+
+Probelm >=> 
+class component er {this.props.chindren} kivabe kaj kore?
+
+Probelm >=>
+Index.html file er baire kono paile ami style css link korle error ase
+
+Probelm >=>
+HTML template er code onek jaigay repeat hoi sekhettre DRY code kivabe likhbo?
+
+Probelm>=> akta file a sob css code likhle besi valo kore maintain kora jabe naki every component er jonno alada alada css likhle besi valo hobe
