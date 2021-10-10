@@ -2,7 +2,6 @@ import React, { Component } from 'react';
 import ShopFilter from './ShopFilter';
 import ShopProduct from './ShopProduct';
 import ThemeInnerBanner from './ThemeInnerBanner';
-import ThemePagination from './ThemePagination';
 
 class Shop extends Component {
     render() {
@@ -13,7 +12,6 @@ class Shop extends Component {
                 <div className="container">
                     <ShopFilter/>
                     <ShopProduct/>
-                    <ThemePagination/>
                 </div>
             </div>
             </>

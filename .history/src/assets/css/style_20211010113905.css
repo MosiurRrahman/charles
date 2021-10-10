@@ -438,7 +438,6 @@ body .theme-button-one:hover {
 }
 .theme-pagination ul li {
   display: inline-block;
-  margin: 0 5px;
 }
 .theme-pagination ul li a {
   display: block;
@@ -884,7 +883,7 @@ body .theme-button-one:hover {
 }
 /*------------------ Feature Banner ---------------*/
 .feature-banner {
-  background: url(../images/home/inner-banner.jpg) no-repeat center center;
+  background: url(../images/home/2.jpg) no-repeat center center;
   background-size: cover;
   background-attachment: fixed;
   background-color: #707d9e;

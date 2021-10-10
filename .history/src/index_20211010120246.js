@@ -4,12 +4,9 @@ import { BrowserRouter, Route, Switch } from "react-router-dom";
 import SimpleReactLightbox from "simple-react-lightbox";
 import Layout from "./components/app";
 import defaultLayout from './components/layouts/Main';
-import PageNotFound from "./components/pages/404/PageNotFound";
 import about from "./components/pages/about/about";
-import ServicePage from "./components/pages/service/ServicePage";
-import ServiceDetailsPage from "./components/pages/serviceDetails/ServiceDetailsPage";
 import Shop from "./components/pages/shop/Shop";
-import ShopDetailsPage from "./components/pages/shopDetails/ShopDetailsPage";
+import ShopDetails from "./components/pages/shopDetails/ShopDetails";
 import Team from "./components/pages/team/Team";
 // Initailizations All CSS
 import './index.css';
@@ -24,14 +21,11 @@ class Root extends Component {
                 <Route path="/about" component={about}/>
                 <Route path="/team" component={Team}/>
                 <Route path="/shop" component={Shop}/>
-                <Route path="/shop-details" component={ShopDetailsPage}/>
-                <Route path="/error" component={PageNotFound}/>
-                <Route path="/service" component={ServicePage}/>
-                <Route path="/service-details" component={ServiceDetailsPage}/>
+                <Route path="/product-details" component={ShopDetails}/>
             </Layout>
         </Switch>
       </BrowserRouter>
-    );                                       
+    );
   }
 }
 

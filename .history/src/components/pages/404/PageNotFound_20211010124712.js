@@ -1,0 +1,14 @@
+import React, { Component } from 'react';
+import ThemeInnerBanner from './ThemeInnerBanner';
+
+class PageNotFound extends Component {
+    render() {
+        return (
+            <>
+             <ThemeInnerBanner/>   
+            </>
+        );
+    }
+}
+
+export default PageNotFound;
