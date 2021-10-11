@@ -7,10 +7,7 @@ import defaultLayout from './components/layouts/Main';
 import PageNotFound from "./components/pages/404/PageNotFound";
 import about from "./components/pages/about/about";
 import BlogPage from "./components/pages/blog/BlogPage";
-import BlogDetailsPage from "./components/pages/blogDetails/BlogDetailsPage";
 import BlogGridPage from "./components/pages/blogGrid/BlogGridPage";
-import Faq from "./components/pages/faq/Faq";
-import Protfolio from "./components/pages/portfolio/Protfolio";
 import ServicePage from "./components/pages/service/ServicePage";
 import ServiceDetailsPage from "./components/pages/serviceDetails/ServiceDetailsPage";
 import Shop from "./components/pages/shop/Shop";
@@ -26,7 +23,7 @@ class Root extends Component {
         <Switch>
             <Route exact path = '/' component={defaultLayout} />
             <Layout>
-                <Route path={`${process.env.PUBLIC_URL}/about`} component={about}/>
+                <Route path="/about" component={about}/>
                 <Route path="/team" component={Team}/>
                 <Route path="/shop" component={Shop}/>
                 <Route path="/shop-details" component={ShopDetailsPage}/>
@@ -34,10 +31,7 @@ class Root extends Component {
                 <Route path="/service" component={ServicePage}/>
                 <Route path="/service-details" component={ServiceDetailsPage}/>
                 <Route path="/blog" component={BlogPage}/>
-                <Route path="/blog-grid" component={BlogGridPage}/>
-                <Route path="/blog-details" component={BlogDetailsPage}/>
-                <Route path="/faq" component={Faq}/>
-                <Route path="/project" component={Protfolio}/>
+                <Route path="/blog-gird" component={BlogGridPage}/>
             </Layout>
         </Switch>
       </BrowserRouter>

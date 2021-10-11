@@ -9,8 +9,6 @@ import about from "./components/pages/about/about";
 import BlogPage from "./components/pages/blog/BlogPage";
 import BlogDetailsPage from "./components/pages/blogDetails/BlogDetailsPage";
 import BlogGridPage from "./components/pages/blogGrid/BlogGridPage";
-import Faq from "./components/pages/faq/Faq";
-import Protfolio from "./components/pages/portfolio/Protfolio";
 import ServicePage from "./components/pages/service/ServicePage";
 import ServiceDetailsPage from "./components/pages/serviceDetails/ServiceDetailsPage";
 import Shop from "./components/pages/shop/Shop";
@@ -36,8 +34,6 @@ class Root extends Component {
                 <Route path="/blog" component={BlogPage}/>
                 <Route path="/blog-grid" component={BlogGridPage}/>
                 <Route path="/blog-details" component={BlogDetailsPage}/>
-                <Route path="/faq" component={Faq}/>
-                <Route path="/project" component={Protfolio}/>
             </Layout>
         </Switch>
       </BrowserRouter>
